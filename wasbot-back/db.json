@@ -1,0 +1,133 @@
+{
+  "professionals": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "email": "joao.silva@empresa.com",
+      "profession": "Barbeiro",
+      "companyId": 123,
+      "createdAt": "2024-01-01T12:00:00Z",
+      "updatedAt": "2024-01-02T14:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Maria Oliveira",
+      "email": "maria.oliveira@empresa.com",
+      "profession": "Cabeleireira",
+      "companyId": 123,
+      "createdAt": "2024-01-01T13:00:00Z",
+      "updatedAt": "2024-01-02T15:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Carlos Mendes",
+      "email": "carlos.mendes@empresa.com",
+      "profession": "Massoterapeuta",
+      "companyId": 124,
+      "createdAt": "2024-01-03T10:00:00Z",
+      "updatedAt": "2024-01-04T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Fernanda Souza",
+      "email": "fernanda.souza@empresa.com",
+      "profession": "Esteticista",
+      "companyId": 124,
+      "createdAt": "2024-01-05T08:00:00Z",
+      "updatedAt": "2024-01-06T09:00:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Corte de cabelo",
+      "description": "Corte tradicional com finalização.",
+      "price": 30,
+      "duration": 30,
+      "professionalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Barba",
+      "description": "Aparação e design de barba.",
+      "price": 25,
+      "duration": 20,
+      "professionalId": 1
+    },
+    {
+      "id": 3,
+      "name": "Pintura de cabelo",
+      "description": "Coloração completa do cabelo.",
+      "price": 100,
+      "duration": 90,
+      "professionalId": 2
+    },
+    {
+      "id": 4,
+      "name": "Massagem relaxante",
+      "description": "Massagem terapêutica para relaxamento.",
+      "price": 80,
+      "duration": 60,
+      "professionalId": 3
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "serviceId": 1,
+      "date": "2024-12-01",
+      "time": "09:00",
+      "email": "alice.santos@cliente.com"
+    },
+    {
+      "id": 2,
+      "serviceId": 2,
+      "date": "2024-12-01",
+      "time": "10:00",
+      "email": "bruno.costa@cliente.com"
+    },
+    {
+      "id": 3,
+      "serviceId": 3,
+      "date": "2024-12-02",
+      "time": "13:00",
+      "email": "carla.nunes@cliente.com"
+    },
+    {
+      "id": 4,
+      "serviceId": 1,
+      "date": "2024-12-01",
+      "time": "11:00",
+      "email": "diego.alves@cliente.com"
+    },
+    {
+      "id": "e4c4",
+      "serviceId": 2,
+      "date": "2024-12-07",
+      "time": "09:00",
+      "email": "vinicius@gmail.com"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Alice Santos",
+      "email": "alice.santos@cliente.com"
+    },
+    {
+      "id": 2,
+      "name": "Bruno Costa",
+      "email": "bruno.costa@cliente.com"
+    },
+    {
+      "id": 3,
+      "name": "Carla Nunes",
+      "email": "carla.nunes@cliente.com"
+    },
+    {
+      "id": 4,
+      "name": "Diego Alves",
+      "email": "diego.alves@cliente.com"
+    }
+  ]
+}
