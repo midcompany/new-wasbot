@@ -53,7 +53,7 @@ const models = [
   User,
   Contact,
   Ticket,
-  Message, 
+  Message,
   Whatsapp,
   ContactCustomField,
   Setting,
@@ -131,6 +131,13 @@ const monitorDatabaseConnection = async () => {
 };
 
 setInterval(monitorDatabaseConnection, 30000);
-
+sequelize
+  .sync()
+  .then(() => {
+    console.log('Tabelas sincronizadas com sucesso!');
+  })
+  .catch((erro) => {
+    console.error('Erro ao sincronizar tabelas:', erro);
+  });
 
 export default sequelize;
